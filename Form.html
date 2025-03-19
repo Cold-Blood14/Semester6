@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: rgb(249, 220, 182); font-family: Arial, sans-serif;">
+    <form style="background: white;">
+        <h1 style="text-align: center; font-family: Tahoma;">Form</h1>
+        <label for="fname" style="margin-top : 20px ; margin-bottom : 20px;">First name:</label>
+        <input type="text" id="fname" name="fname" style="margin-top : 20px ; margin-bottom : 20px;">
+        <br>
+        <label for="lname" style="margin-top : 20px ; margin-bottom : 20px;">Last name:</label>
+        <input type="text" id="lname" name="lname" style="margin-top : 20px ; margin-bottom : 20px;">
+        <br>
+        <label for="ShirtType" style="margin-top : 20px ; margin-bottom : 20px;">Type of Shirt:</label>
+        <select name="ShirtType" id="ShirtType" style="margin-top : 20px ; margin-bottom : 20px;">
+            <option value="BLANK">-------</option>
+            <option value="HalfS">Half Sleeve</option>
+            <option value="FullS">Full Sleeve</option>
+        </select>
+        <br>
+        <label style="margin-top : 20px ; margin-bottom : 20px;">Shirt Size:</label>
+        <input type="radio" id="Small" name="Size" value="Small" style="margin-right: 5px;"> <label for="Small">Small</label>
+        <input type="radio" id="Medium" name="Size" value="Medium" style="margin-right: 5px;"> <label for="Medium">Medium</label>
+        <input type="radio" id="Large" name="Size" value="Large" style="margin-right: 5px;"> <label for="Large">Large</label>
+        <br><br>
+        <label style="margin-top : 20px ; margin-bottom : 20px;">Color:</label>
+        <input type="checkbox" id="Red" name="Color" value="Red" style="margin-right: 5px;"> <label for="Red">Red</label>
+        <input type="checkbox" id="Navy" name="Color" value="Navy" style="margin-right: 5px;"> <label for="Navy">Navy</label>
+        <input type="checkbox" id="Black" name="Color" value="Black" style="margin-right: 5px;"> <label for="Black">Black</label>
+        <br><br>
+        <label for="comment" style="margin-top : 20px ; margin-bottom : 20px;">Comments:</label>
+        <br>
+        <textarea id="comment" name="comment" rows="5" style="margin-top : 20px ; margin-bottom : 20px;"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit" style="width : 5%; background-color: #007BFF; color: white;">
+        <input type="reset" value="Reset" style="width : 5%; background-color: #dc3545; color: white;">
+        
+    </form>
+</body>
+</html>
