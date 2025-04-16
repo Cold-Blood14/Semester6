@@ -1,0 +1,115 @@
+    body {
+    margin: 0;
+    padding: 0;
+    }
+    a{
+        color: #ffffff; 
+        text-decoration: underline; 
+    }
+    a:hover {
+        color: #ff8800; 
+        text-decoration: underline; 
+    }
+    header {
+        background-color: #00098c;
+        padding: 25px;
+        text-align: left;
+        font-size: 20px;
+        width: 100%;
+        color: white;
+        overflow : visible;
+        z-index: 2;
+    }
+    header img{
+        position: absolute ;
+    }
+    .dropbtn {
+            background-color: #386dff;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+    }  
+    .dropdown {
+            position: relative;
+            display: inline-block;
+    }    
+    .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            top: 100%;
+            left: 0;
+            z-index: 1;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-size: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            color: black;
+            white-space: nowrap;
+    }  
+    .dropdown-content .column {
+            display: flex;
+            flex-direction: column;
+            min-width: 200px;
+    }    
+    .dropdown-content b {
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: black;
+    }
+    .dropdown-content a {
+            color: black;
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+    }
+    .dropdown-content a:hover {
+            background-color: #f2f2f2;
+    }
+    .multi-column {
+        flex-direction: row;
+        gap: 5px;
+        max-width: 100vw; 
+    }
+    .dropdown:hover .dropdown-content {
+            display: flex;
+    }
+    .bg {
+        width: 100vw;
+    }
+    .bg img {
+        z-index: -1;
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        display: block;
+    }
+    .p1 {
+    background-color:#386dff;
+    width:200% ;
+    text-align:right;
+    font-size: 13px;
+    padding : 0px;
+    margin : 0px;
+    align-items : center; 
+    border : 4px solid #386dff;
+    z-index: 2;
+}
+    .txt1{
+    text-align: left;
+    padding : 20px;
+    margin: 5px;
+}
+    .about {
+        display: flex;
+        gap : 40px;
+        font-size: auto;
+        text-align: justify;
+        margin: 10px;
+    }
+        
